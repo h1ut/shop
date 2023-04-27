@@ -1,0 +1,137 @@
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+.navBar { 
+    max-width: 1240px;
+    display: flex;
+    background: #D9D9D9;
+    width: 1440px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 52px;
+}
+svg {
+    margin-right: 363px;
+}
+
+
+.main__container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+.first__block {
+    height: 650px;
+}
+.over__section1 {
+    position: relative;
+}
+.main__section1 {
+    left: 100px;
+    top: 122px;
+    width: 610px;
+    height: 563px;
+    background-image: url("../images/Group\ 375.png");
+}
+.main__section1:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+    width: 610px;
+    height: 563px;
+
+}
+.inner {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    padding: 50px;  
+    text-align: left;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.button1 {
+    width: 150px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color:  rgba(0,0,0,0);
+    border: 3px solid #fff;
+}
+
+
+
+.div__map {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.ggg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+    width: 295px;
+    height: 271.5px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 42px;
+}
+  
+.button2 {
+    width: 150px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color:  rgba(0,0,0,0);
+    border: 3px solid #fff;
+    margin-left: 75px;
+}
